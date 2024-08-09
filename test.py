@@ -20,15 +20,15 @@ import seaborn as sns
 path_utils = "C:/Documents/Université/Master/Mémoire/Code/example/utils"
 if(not(path_utils in sys.path)):
     sys.path.insert(0,path_utils)
-input_path = 'C:/Documents/Université/Master/Mémoire/Code/example/MNIST'
+input_path = 'C:/Documents/Université/Master/Mémoire/Code/example/Real_set'
 import mnist_utils as mnu
 
 #with open('C:/Documents/Université/Master/Mémoire/Code/example/MNIST/new_x_test_withoutnoise_all_skeletonLee_3.pickle', 'rb') as f:
-with open('C:/Documents/Université/Master/Mémoire/Code/example/MNIST/x_val.pickle', 'rb') as f:
+with open('C:/Documents/Université/Master/Mémoire/Code/example/Real_set/x_val.pickle', 'rb') as f:
     x = pickle.load(f)
     
 #with open('C:/Documents/Université/Master/Mémoire/Code/example/MNIST/new_y_test_withoutnoise_all_skeletonLee_3.pickle', 'rb') as f:
-with open('C:/Documents/Université/Master/Mémoire/Code/example/MNIST/y_val.pickle', 'rb') as f:
+with open('C:/Documents/Université/Master/Mémoire/Code/example/Real_set/y_val.pickle', 'rb') as f:
     y = pickle.load(f)
 
     
