@@ -1,0 +1,8 @@
+============ NEW LOGFILE 
+
+
+----------------------- Training --------------------------
+
+
+************ Epoch 0 ************
+=== Train loss : tensor(2.5709, device='cuda:0', grad_fn=<NllLossBackward0>)
