@@ -1,0 +1,22 @@
+{
+    "mean": 0.8,
+    "std": 0.2,
+    "normal": false,
+    "sigma1": 0.55,
+    "sigma2": 0.85,
+    "truncate_gaussianFilter": 4.0,
+    "radius_gaussianFilter": 2,
+    "a_translation": 8,
+    "b_translation": 2,
+    "num_train_samples_translation": 0,
+    "num_test_samples_translation": 0,
+    "x_shear": 0.3,
+    "y_shear": 0.2,
+    "num_train_samples_shear": 0,
+    "num_test_samples_shear": 0,
+    "angle_rotation": 10,
+    "num_train_samples_rotation": 0,
+    "num_test_samples_rotation": 0,
+    "num_train_samples_lines": 0,
+    "num_test_samples_lines": 0
+}
