@@ -1,2 +1,11 @@
-The Clocks, Clocks_alz and Clocks_control files are in zip files because they were too big to put them like that.
-The MNIST folder containing all the datasets created could not be added as it was far too large. The current folder contains just the data present in the MNIST set.
+- The Clocks, Clocks_alz and Clocks_control files are in zip files because they were too big to put them like that and it contains the clocks from the test. Clocks_control contains only clocks for the control patient, Clocks_alz only for the patient with Alzheimer, and Clocks is mixed
+- The MNIST folder containing all the datasets created  and the MNIST set could not be added as it was far too large. 
+- The Real_set folder contains the data containing the numbers extracted from the clocks, stored in pickle. There is one with numbers written by control patients, one with numbers written by Alzheimer's patients and one mixed.
+- The model folder contains all the model created with the different synthetic dataset (with transformations, without)
+- The parameters folder contains all files with the value of the parameters for each dataset created
+- The utils folder contains a file called mnist_utils.py which contains functions that we used for the creation of the dataset and for the model
+- Files: Numbers.ipynb, Numbers_Alzheimers.ipynb, and Numbers_Control.ipynd are the codes that enabled us to extract the numbers from the clocks
+- augment_data_all.py is the code that enabled us to create the synthetic dataset
+- extract_features_pdf(1).py is the code that enabled us to extract the features from a PDF file
+- test.py is the code to evaluate the model on the real dataset
+- trainMNIST_skip.py is the code to create, train, evaluate on the test synthetic dataset the model.
