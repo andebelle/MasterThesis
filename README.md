@@ -1,5 +1,5 @@
 - The Clocks, Clocks_alz and Clocks_control files are in zip files because they were too big to put them like that and it contains the clocks from the test. Clocks_control contains only clocks for the control patient, Clocks_alz only for the patient with Alzheimer, and Clocks is mixed
-- The MNIST folder containing all the datasets created  and the MNIST set could not be added as it was far too large. 
+- The MNIST folder containing all the datasets created  and the MNIST set could not be added as it was far too large. The MNIST zip file is empty
 - The Real_set folder contains the data containing the numbers extracted from the clocks, stored in pickle. There is one with numbers written by control patients, one with numbers written by Alzheimer's patients and one mixed.
 - The model folder contains all the model created with the different synthetic dataset (with transformations, without)
 - The parameters folder contains all files with the value of the parameters for each dataset created
